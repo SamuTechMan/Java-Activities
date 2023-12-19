@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cat
+comment1.params=
+comment1.target=void\ sleep()
+comment1.text=\r\n\ \ \ \ \ M\u00E9todos\ de\ instancia\:\ Comportamento\ do\ gato\r\n
+comment2.params=
+comment2.target=void\ play()
+comment3.params=
+comment3.target=void\ feed()
+numComments=4

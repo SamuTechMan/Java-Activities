@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StockKeeper
+comment1.params=name
+comment1.target=StockKeeper(java.lang.String)
+comment2.params=album\ name\ artist\ price\ numberOfCopies
+comment2.target=void\ manageAlbum(Album,\ java.lang.String,\ java.lang.String,\ double,\ int)
+numComments=3
