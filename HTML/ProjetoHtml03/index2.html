@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste com Imagens</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        background-image: linear-gradient(45deg, rgb(107, 1, 1), rgb(0, 0, 80));
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        overflow: hidden;
+      }
+      mark {
+        background-color: yellow;
+        opacity: 0.8;
+      }
+      img {
+        height: 160px;
+        width: 140px;
+        background-image: linear-gradient(
+          45deg,
+          rgb(0, 255, 132),
+          rgb(166, 255, 0)
+        );
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px 1px white;
+      }
+
+      div {
+        display: flex;
+      }
+      p {
+        margin: 2vh;
+      }
+    </style>
+    <link
+      rel="website icon"
+      type="png"
+      href="https://mlohrktvfr9b.i.optimole.com/cb:5Boq.164d9/w:auto/h:auto/q:75/f:avif/https://www.nerdstickers.com.br/wp-content/uploads/2022/10/products-26-Java.png"
+    />
+  </head>
+  <body>
+    <h1>Testando carga e Imagens</h1>
+    <div>
+      <img src="img/html5Logo.png" alt="Logo HTML5" />
+      <p>
+        Ao lado você vai <em>ver</em> uma
+        <mark>imagem que está na mesma pasta.</mark>
+      </p>
+      <img src="img/cssLogo.png" alt="Logo CSS3" />
+      <p>
+        Podemos também <i>carregar</i> imagens que estão em
+        <mark>sub-pastas</mark>. <br /><br />
+        <em>mark</em> usado para marca texto.
+      </p>
+      <img src="img/Csharp_Logo.png" alt="Logo C#" />
+      <p>Também podemos carregar imagens <mark>externas</mark>.</p>
+    </div>
+    <h2>Texto grande e pequeno</h2>
+    <p>
+      Estamos criando um <big>texto grande</big> e um
+      <small>texto pequeno</small>
+    </p>
+    <h2>Texto inserido</h2>
+    <p>
+      Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e
+      indicar que ele foi adicionado depois.
+    </p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subcrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <input type="button" value="Voltar" onClick="history.go(-1)" />
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Nome do usuário:</label>
+      <input
+        placeholder="Digite o nome de usuário"
+        type="text"
+        name="username"
+        id="username"
+      />
+      <br />
+      <label for="password">Senha:</label>
+      <input
+        placeholder="Digite a senha do usuário"
+        type="password"
+        name="password"
+        id="password"
+      />
+      <br />
+      Gênero: <input type="radio" name="genero" value="male" id="" />Masculino
+      <input type="radio" name="genero" value="female" id="" />Feminino
+      <input type="radio" name="genero" value="other" id="" />Neutrox
+      <br />
+      Outro: <input list="Options" />
+      <datalist id="Options">
+        <option value="Bambi"></option>
+        <option value="Suelen"></option>
+        <option value="Gafanhoto"></option>
+      </datalist>
+      <br />
+      <input type="checkbox" name="correct" value="correct" id="" />Correto
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
